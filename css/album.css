@@ -1,0 +1,43 @@
+/* Album Section */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5em;
+    padding: 2em 1em;
+  }
+  
+  .album-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .album-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .album-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .album-card .card-content {
+    padding: 1em;
+  }
+  
+  .album-card .card-content h3 {
+    margin: 0 0 0.5em;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .album-card .card-content p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
