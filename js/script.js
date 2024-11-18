@@ -1,4 +1,4 @@
-fetch('../data/data.json')
+fetch('./data/data.json')
   .then(response => response.json())
   .then(data => {
     // Render images into the carousel
@@ -57,7 +57,7 @@ fetch('../data/data.json')
       `;
       videosContainer.appendChild(videoFrame);
     });
-})
+    })
     .catch(error => console.error('Error loading data:', error));
 // tự động chuyển imges
 setInterval(() => {
