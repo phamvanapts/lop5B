@@ -245,3 +245,49 @@ body {
   font-size: 1em;
   color: #666;
 }
+/* Navigation Bar */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Đảm bảo luôn ở trên nội dung khác */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  padding: 0.5em 0;
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #333;
+  padding: 0.5em 1em;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background-color: #007BFF;
+  border-radius: 4px;
+}
+
+/* Active State When Scrolling */
+nav.active {
+  background-color: #007BFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav.active ul li a {
+  color: white;
+}
