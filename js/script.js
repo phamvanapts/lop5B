@@ -48,15 +48,20 @@ fetch('./data/data.json')
     // video
     // Render videos
     const videosContainer = document.getElementById('videos-container');
-    data.videos.forEach(video => {
-      const videoFrame = document.createElement('div');
-      videoFrame.className = 'video-card';
-      videoFrame.innerHTML = `
-        <iframe src="${video.url}" allowfullscreen></iframe>
-        <p>${video.title}</p>
-      `;
-      videosContainer.appendChild(videoFrame);
-    });
+
+// Lấy 3 video đầu tiên từ dữ liệu JSON
+data.videos.slice(0, 3).forEach(video => {
+  // Tạo thẻ chứa video
+  const videoFrame = document.createElement('div');
+  videoFrame.className = 'video-card';
+  videoFrame.innerHTML = `
+    <iframe src="${video.url}" allowfullscreen></iframe>
+    <p>${video.title}</p>
+  `;
+  // Thêm thẻ video vào container
+  videosContainer.appendChild(videoFrame);
+});
+
     })
     .catch(error => console.error('Error loading data:', error));
 // tự động chuyển imges
