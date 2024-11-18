@@ -1,0 +1,67 @@
+{
+  "images": [
+    {
+      "url": "1.jpg",
+      "caption": "Chuẩn bị tiết mục múa"
+    },
+    {
+      "url": "2.jpg",
+      "caption": "Chuẩn bị tiết mục múa"
+    },
+    {
+      "url": "3.jpg",
+      "caption": "Chuẩn bị tiết mục múa"
+    },
+    {
+      "url": "4.jpg",
+      "caption": "Chuẩn bị tiết mục múa"
+    },
+    {
+      "url": "5.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "6.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "7.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "8.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "9.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "10.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "11.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    },
+    {
+      "url": "12.jpg",
+      "caption": "Chuẩn bị tiết mục múa"     
+    }
+
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/embed/SM8GBnLpwu8",
+      "title": "Háo hức chờ thi văn nghệ lớp 5B LQD 2024"
+    },
+    {
+      "url": "https://www.youtube.com/embed/ie4Z-KK8AIc",
+      "title": "Háo hức chờ thi văn nghệ lớp 5B LQD 2024"
+    },
+    {
+      "url": "https://www.youtube.com/embed/N_5JfNwzGgQ",
+      "title": "Tiết mục múa lớp 5B Trường TH LQĐ 2024"
+    }
+  ]
+}
