@@ -1,5 +1,10 @@
 {
-  "images": [
+    "teacher": {
+      "name": "Nguyễn Thị Kim Ngân",
+      "photo": "teacher.jpg",
+      "description": "Cô chủ nhiệm tận tâm, luôn yêu thương và dẫn dắt các con vượt qua mọi thử thách trong học tập và cuộc sống."
+    },
+    "images": [
     {
       "url": "1.jpg",
       "caption": "Chuẩn bị tiết mục múa"
